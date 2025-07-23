@@ -1,0 +1,119 @@
+/* common */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Serif", serif;
+}
+.container{
+
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+
+/* navbar related style */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav-container{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    align-items: center;
+}
+.nav-container li a{
+    text-decoration: none;
+    color: #8987a1;
+}
+
+
+/* banner */
+
+.banner
+{
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 100px auto;
+}
+
+.banner-left{
+    flex: 1;
+}
+.banner-right{
+    flex: 1;
+}
+.banner-left h2{
+
+    font-weight: bold;
+    font-size: 65px;
+}
+.text
+{
+    color: #E95A08;
+}
+
+.banner-left p{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 13px;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.banner-right img{
+    display: block;
+   padding-left: 50px;
+}
+
+
+
+
+/*card section */
+
+
+
+.plant-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.plant-title{
+    text-align: center;
+    font-size: 22px;
+    color: #8d8a8a;
+    gap: 49px;
+    margin-bottom: 40px;
+}
+
+/* plant card */
+
+.plant-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px; 
+  padding: 20px;
+}
+
+.plant-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+.btn {
+  background-color: #E95A08;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}

@@ -162,3 +162,22 @@
   font-size: 22px;
   color: #8d8a8a;
 }
+
+
+
+/* plant lover section */
+
+.plant-lover-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 80px;
+}
+.plant-title{
+    text-align: center;
+    font-size: 22px;
+    color: #8d8a8a;
+    gap: 49px;
+    margin-bottom: 40px;
+}
